@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.zumic.automation.Practice_Selenium">
+        <methods>
+          <include name="initialize"/>
+          <include name="doSkip"/>
+          <include name="preparingToShutDown"/>
+          <include name="SmokeTestCase"/>
+        </methods>
+      </class> <!-- com.zumic.automation.Practice_Selenium -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
